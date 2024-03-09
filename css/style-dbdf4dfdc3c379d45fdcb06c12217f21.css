@@ -1091,7 +1091,7 @@ h1 {
 }
 .content-area .block1 .block1-left h2 {
   font-size: 50px;
-  color: #ffffff;  /* 1a1a1a */
+  color: #fff3d8;  /* 1a1a1a */
   margin-bottom: 15px;
   /* text-transform: uppercase; */
   line-height: 50px;
@@ -1099,14 +1099,14 @@ h1 {
 }
 .content-area .block1 .block1-left p {
   font-size: 14px;
-  color: #fff; /* #1a1a11 */
+  color: #f1f1f1; /* #1a1a11 */
   line-height: 25px;
   margin-bottom: 35px;
   letter-spacing: 1px;
 }
 .content-area .block1 .block1-left .read-btn {
-  border: 2px solid #000;
-  color: #000;
+  border: 2px solid #fff; /* #000 */
+  color: #fff; /* #000 */
   padding: 8px 50px 5px 50px;
   font-size: 13px;
   text-transform: uppercase;
@@ -1121,9 +1121,11 @@ h1 {
   border-radius: 25px;
 }
 .content-area .block1 .block1-left .read-btn:hover {
-  background-color: #000;
-  color: #fff;
+  background-color: #444; /* #000 */
+  color: #000;
   text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 .content-area .block1 img {
   width: 100%;
@@ -1186,8 +1188,8 @@ h1 {
   display: block;
 }
 .content-area .block2:after {
-  background: url("https://www.quay.com.au/wp-content/themes/quay/images/bd-image.png")
-    no-repeat left;
+  /* background: url("https://www.quay.com.au/wp-content/themes/quay/images/bd-image.png")
+    no-repeat left; */
   position: absolute;
   content: "";
   bottom: 107px;
@@ -2699,7 +2701,7 @@ footer .social-icon a.googleplus-icon:hover {
     line-height: 30px;
   }
   .content-area .gallery-block .box-bg a {
-    top: 50%;
+    top: 100%;
     -webkit-transform: translate(0, -50%);
     transform: translate(0, -50%);
   }
@@ -2758,7 +2760,7 @@ footer .social-icon a.googleplus-icon:hover {
   }
   .content-area .block1 .block1-left h2 {
     font-size: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     line-height: 50px;
     height: auto !important;
   }
@@ -4013,6 +4015,12 @@ input#quantity {
   -webkit-filter: none;
   filter: none;
 }
+
+.gallery-block h4{
+  font-family:'Poppins';
+  margin-top: 45%;
+  letter-spacing: 2px;
+}
 .content-area .gallery-block .image1 .content_block {
   display: block;
   position: absolute;
@@ -4021,10 +4029,15 @@ input#quantity {
   height: 100%;
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
-  padding: 115px 30px;
+  padding: 40px 30px;  /* 115px 30px */
+}
+.content-area .gallery-block .image1 .content_block:hover {
+  background: rgba(0, 0, 0, 0);
+  transition: all ease-in-out .5s;
 }
 .content-area .gallery-block .image1 .content-details {
   opacity: 1;
+  display: flex;
 }
 .content-area .block1 .block1-left .read-btn:hover {
   color: #fff !important;
@@ -4198,7 +4211,7 @@ html, body {overflow-x: hidden;}
   color: #000;
   position: relative;
   text-decoration: none;
-  background-color: rgb(255, 166, 0, 0.3);
+  background-color: rgb(255, 166, 0, 0.9);
   background-blend-mode: luminosity;
 }
 

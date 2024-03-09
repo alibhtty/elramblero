@@ -1,9 +1,10 @@
 :root {
-    --magenta-logo: #E6037E; /* #E6037E #FF0066 */
+    --magenta-logo: #92a4c3; /* #E6037E #FF0066 */
+    --carta: #92a4c3;
     --magenta: #FF00FF;
     --amarillo: #FFFF00; /* FFBB00 */
     --azul: #0000FF;
-    --bg-light: #FFF0F8; /* FFF0F8 */
+    --bg-light: #f0fdff; /* FFF0F8 */
     --light-amarillo: #FFFFE0;
     --blanco:#FFFFFF;
 
@@ -47,11 +48,12 @@
 ul li{
     line-height: 13px;
     font-size: 14px;
+    letter-spacing: 1px;
     text-transform: uppercase;
     color: var(--bg-light);  /* #373d48 */
     font-family: colby; /* "OakesGroteskBold" */
     font-weight: 400;
-    padding: 0 0 4px 0;
+    padding: 8px 0 8px 0;
     /* list-style: outside circle; */
 }
 
@@ -219,7 +221,8 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
     color: #7a1c5e; /* 222 */
 }
 .menu_content p {
-    color: var(--magenta-oscuro);
+    /* color: var(--magenta-oscuro); */
+    color: #000;
     font-family: colby-light;
     font-weight: 400;
     font-size: 16px;

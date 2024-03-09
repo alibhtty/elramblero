@@ -60,9 +60,9 @@ img.emoji {
 <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 
 <!-- FAVICONS -->
-<link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="../favicon/safari-pinned-tab.svg">
-<link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../assets/icons/favicon/er-180.jpg">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/icons/favicon/er-32.jpg">
+<link rel="icon" type="image/png" sizes="16x16" href="../assets/icons/favicon/er-32.jpg">
 <link rel="manifest" href="../favicon/site.webmanifest">
 <link rel="mask-icon" href="../favicon/safari-pinned-tab.svg" color="#ffc40d">
 <meta name="msapplication-TileColor" content="#ffc40d">
@@ -76,11 +76,11 @@ img.emoji {
             "defaultLang" : "es",
             "brand": {
                 "dev" : false,
-                "name": "Necesaarias",
-                "url" : "https://changarrito.es/",
+                "name": "Necesarias",
+                "url" : "https://elramblero.es/",
                 "websiteOwner" : "Necesarias"
                 },
-            "cookiePolicyLink": "https://alibhtty.github.io/elchangarrito/cookies.html",
+            "cookiePolicyLink": "https://alibhtty.github.io/elramblero/cookies.html",
             "hideModalIn": ["http://localhost/cookies.php"],
             "styles": {
                 "primaryButton": {
@@ -134,7 +134,7 @@ img.emoji {
     }
 
     #our_menu{
-      background: linear-gradient(to bottom, #E6037E 0%, #FFFFE0 100%); /* #E6037E    naranja #ffa30f*/
+      background: linear-gradient(to bottom, var(--carta) 0%, #FFFFE0 100%); /* #E6037E    naranja #ffa30f*/
     }
 
     b{
@@ -156,7 +156,7 @@ img.emoji {
       <div style="text-align: center">
           <div class="logo-icon" href="../index.html">
               <!-- <img style="position: absolute; width: 24px; align-items: center; margin-left: -136px;margin-top: 17px;z-index: 1000;" src="assets/icons/nacho.png" alt="nacho con guacamole"> -->
-              <h1 class="logo-top" style="font-family: days; font-size: 40px; padding-top: 8px;padding-left: -13px; color: #fff; white-space: nowrap; margin-bottom: 0px" translate="no">el changarrito</h1>
+              <h1 class="logo-top" style="font-family: eurostyle; font-size: 46px; padding-top: 14px;padding-left: -13px; color: #fff; white-space: nowrap; margin-bottom: 0px" translate="no">El Ramblero</h1>
               <!-- <h1 class="top-logo" style="font-family: days; color: #FFFF00; font-size: 14px; margin-top: -.5rem; margin-left: 15.3rem; white-space: nowrap;">clientes</h1> -->
           </div>
       </div>
@@ -206,7 +206,7 @@ img.emoji {
                     <div class="col-md-4 col-sm-6 logo-image1" style="margin-right: 0px;">
                         <!-- <a href="index.html" class="logo"><img src="wp-content/uploads/2018/07/quay-white.svg" alt="Quay Restaurant Sydney"> </a> -->
                         <a class="logo" href="">
-                          <h1 class="top-logo" style="font-family: days; color: #fff; font-size: 40px; margin-top: -.7rem; white-space: nowrap;" translate="no">el changarrito</h1>
+                          <h1 class="top-logo" style="font-family: eurostyle; color: #fff; font-size: 46px; margin-top: -.4rem; white-space: nowrap;" translate="no">El Ramblero</h1>
                           <!-- <h1 class="top-logo" style="font-family: days; color: #FFFF00; font-size: 14px; margin-top: -1.8rem; margin-left: 15.3rem; white-space: nowrap;">clientes</h1> -->
                       </a>
                     </div>
@@ -228,16 +228,16 @@ img.emoji {
       <div class="row">
         <ul class="nav nav-tabs menu_tab mb-4" id="myTab" role="tablist">
           <li class="nav-item">
-            <a class="nav-link active" id="botanas-tab" data-toggle="tab" href="#botanas" role="tab">Botanas</a>
+            <a class="nav-link active" id="botanas-tab" data-toggle="tab" href="#botanas" role="tab">Para Compartir</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="tacos-tab" data-toggle="tab" href="#tacos" role="tab">Tacos</a>
+            <a class="nav-link" id="tacos-tab" data-toggle="tab" href="#tacos" role="tab">Platos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="quesadillas-tab" data-toggle="tab" href="#quesadillas" role="tab">Quesadillas</a>
+            <a class="nav-link" id="quesadillas-tab" data-toggle="tab" href="#quesadillas" role="tab">Quesos y Embutidos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="especialidades-tab" data-toggle="tab" href="#especialidades" role="tab">Especialidades</a>
+            <a class="nav-link" id="especialidades-tab" data-toggle="tab" href="#especialidades" role="tab">Carnes</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" id="postres-tab" data-toggle="tab" href="#postres" role="tab">Postres</a>
@@ -245,7 +245,7 @@ img.emoji {
           <li class="nav-item">
             <a class="nav-link" id="bebidas-tab" data-toggle="tab" href="#bebidas" role="tab">Bebidas</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" id="chelas-tab" data-toggle="tab" href="#chelas" role="tab">Chelas</a>
           </li>
           <li class="nav-item">
@@ -253,7 +253,7 @@ img.emoji {
           </li>
           <li class="nav-item">
             <a class="nav-link" id="mezcaless-tab" data-toggle="tab" href="#mezcales" role="tab">Mezcales</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link" id="vinos-tab" data-toggle="tab" href="#vinos" role="tab">Vinos</a>
           </li>
