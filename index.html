@@ -131,7 +131,7 @@ img.emoji {
         height: 160px;
         font-size: 7px;
         cursor: default;
-        background: linear-gradient(#1a1a1a, #1a1a1a, #E6037E);
+        background: linear-gradient(#1a1a1a, #1a1a1a, #000000); /* E6037E */
     }
 }
 
@@ -185,7 +185,7 @@ img.emoji {
                                 <a class="mobile_menu-nav-link menubar cta makebtn" href="index.html" aria-current="page">Inicio</a></li> <!-- style="color:var(--bg-light);" -->
                             <li id="menu-item-107"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107 mobile_menu-nav-list-item">
-                                <a class="mobile_menu-nav-link menubar cta makebtn" href="carta/">La Carta</a></li>
+                                <a class="mobile_menu-nav-link menubar cta makebtn" href="qr/">La Carta</a></li>
                             <li id="menu-item-391"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-391 mobile_menu-nav-list-item">
                                 <a href="index.html#nosotros" class="mobile_menu-nav-link menubar cta makebtn">Nosotros</a></li>
@@ -219,7 +219,7 @@ img.emoji {
                 </div>
                 <div class="col-md-4 pull-right col-xs-12 right-button">
                             <li id="menu-item-391" style="cursor: pointer;">
-                                <a href="restaurantes/" class="right-side toggleReservation light">Reservar una mesa</a></li>               
+                                <a href="./reservas.html" class="right-side toggleReservation light">Reservar una mesa</a></li>               
                         <!-- <a href="index.html#" class="right-side toggleReservation">Hacer una Reserva</a>  -->                       
                 </div>
             </div>
@@ -576,7 +576,7 @@ img.emoji {
                             <div class="menu-footer-menu-container">
                                 <ul id="menu-footer-menu" class="menu">
                                     <li id="menu-item-82" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82"><a class="mobile_menu-nav-link cta makebtn " href="#nosotros">Nosotros</a></li>
-                                    <li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81"><a class="mobile_menu-nav-link cta makebtn " href="carta/">La Carta</a></li>
+                                    <li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81"><a class="mobile_menu-nav-link cta makebtn " href="qr/">La Carta</a></li>
                                     <li id="menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83"><a class="mobile_menu-nav-link cta makebtn " href="#novedades">Vinoteca</a></li>
                                     <li id="menu-item-746" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-746"><a class="mobile_menu-nav-link cta makebtn " href="reservation-policy.html">Políticas de Reserva</a></li>
                                     <!-- <li id="menu-item-747" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-747"><a class="mobile_menu-nav-link cta makebtn " href="privacy-policy.html">Privacy Policy</a></li> -->
@@ -619,7 +619,8 @@ img.emoji {
                     <div style="cursor:pointer" class="col-sm-5 col-xs-12 reservation-section">
                         <div class="resrvation">
                             <h3>RESERVAS</h3>
-                            <span class="makebutton toggleReservation" data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a" data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131" data-glf-reservation="true">RESERVAR UNA MESA</span>
+                            <a href="./reservas.html" class="makebutton toggleReservation">RESERVAR UNA MESA</a>
+                            <!-- <span class="makebutton toggleReservation" data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a" data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131" data-glf-reservation="true">RESERVAR UNA MESA</span> -->
                             <div class="textwidget">
                                 <!-- <p><a class="makebutton toggleReservation" href="index.html#">Hacer una reserva</a></p> -->
                                 <p class="foot-content" style="padding-bottom:20px;">Completa la información necesaria en nuestro sistema de reservas, al terminar recibirá un correo de confirmación.</p>
@@ -684,7 +685,7 @@ img.emoji {
 <div class="clear"></div>
 
 <!-- BOTON DELIVERY -->
-<a class="make-btn-main bottom-button" href="restaurantes/">
+<a class="make-btn-main bottom-button" href="reservas.html">
     <div class="carta">
         <div class="card__icono">
           <svg width="30" height="30" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -697,7 +698,7 @@ img.emoji {
     
         </div>
         <div class="card__mensaje">
-            <h2>El Ramblero Delivery 🌮</h2>
+            <h2>El Ramblero Delivery</h2>
             <p>Te llevamos la comida a casa! Mira nuestra carta y ordena.</p>
           </div>
     </div>
