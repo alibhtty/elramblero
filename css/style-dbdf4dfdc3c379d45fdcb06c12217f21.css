@@ -237,7 +237,7 @@ a {
   color: #000;
 }
 .menubar:hover {
-  color: #ffff00 !important;
+  color: #ffffff !important; /* ffff00 */
   text-decoration: none !important;
 }
 a:hover {
@@ -4261,7 +4261,7 @@ p, address, h1, h2, h3 {
 }
 
 .lang-switch:hover{
-  color: #E6037E;
+  color: #ffffff;  /* E6037E */
   transition: ease-in-out .4s;
 }
 strong{
