@@ -1,0 +1,62 @@
+/* @charset "utf-8"; */
+
+@font-face {
+  font-family: "Open Sans Bold";
+  src: url(../fonts/OpenSans-Bold.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "eurostyle";
+  src: url(../fonts/EurostileNextLTPro-SmBd.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "OakesGroteskBold";
+  src: url(../fonts/OakesGroteskBold.ttf);
+  src: url(../fonts/OakesGroteskBold.eot?#iefix)
+      format("embedded-opentype"),
+    url(../fonts/OakesGroteskBold.woff)
+      format("woff"),
+    url(../fonts/OakesGroteskBold.ttf)
+      format("truetype"),
+    url(../fonts/OakesGroteskBold.svg#OakesGroteskBold)
+      format("svg");
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: "OakesGroteskRegular";
+  src: url(../fonts/OakesGroteskRegular.ttf);
+  src: url(../fonts/OakesGroteskRegular.eot?#iefix)
+  format("embedded-opentype"),
+url(../fonts/OakesGroteskRegular.woff)
+  format("woff"),
+url(../fonts/OakesGroteskRegular.ttf)
+  format("truetype"),
+url(../fonts/OakesGroteskRegular.svg#OakesGroteskRegular)
+  format("svg");
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: "colby";
+  src: url(./Colby-StBld.ttf);
+}
+@font-face {
+  font-family: "colby-light";
+  src: url(./Colby-StLt.ttf);
+}
+@font-face {
+  font-family: "colby-black";
+  src: url(./Colby-StBlk.ttf);
+}
+@font-face {
+  font-family: "days";
+  src: url(./Days.otf);
+}
