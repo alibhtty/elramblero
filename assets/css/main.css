@@ -924,6 +924,7 @@ h1 {
   font-weight: 400;
   color: rgb(241, 241, 241,.6);
   margin-bottom: 2em;
+  border-radius: 1em;
 }
 @media (orientation:portrait){
   .img-sub-nav img{
