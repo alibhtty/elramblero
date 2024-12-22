@@ -74,13 +74,13 @@ today=dd + '/' + mm + '/' + yyyy;
 if($('.home-main-carousel').length > 0){
 var mainHomeCarousel=new Swiper ('.home-main-carousel', {
 loop: true,
-preloadImages: false,
+preloadImages: true, /* false */
 pagination: {
 el: '.home-main-carousel-nav',
 type: 'bullets',
 clickable: true,
 },
-speed: 400,
+speed: 1800,
 autoplay: {
 delay: 3000,
 },
